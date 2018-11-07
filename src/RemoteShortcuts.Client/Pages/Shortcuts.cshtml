@@ -1,0 +1,7 @@
+﻿@page "/"
+@inherits ShortcutsBase
+
+@foreach (var shortcut in Shortcuts)
+{
+    <ActionButton Shortcut="@shortcut" />
+}
